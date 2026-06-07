@@ -63,7 +63,7 @@ endif()
 # Adds a plugin target.
 set(TREMOLO_PLUGIN_NAME "Tremolo")
 juce_add_plugin(
-  TremoloCoursePlugin
+  TremoloCoursePlugin #plugin name
   PRODUCT_NAME
     ${TREMOLO_PLUGIN_NAME}
   VERSION
@@ -71,9 +71,9 @@ juce_add_plugin(
   COMPANY_NAME
     "WolfSound"
   PLUGIN_MANUFACTURER_CODE
-    Wfsd
+    Wfsd # first letter capital
   PLUGIN_CODE
-    Trcp
+    Trcp # first letter capital
   FORMATS
     Standalone
     AU

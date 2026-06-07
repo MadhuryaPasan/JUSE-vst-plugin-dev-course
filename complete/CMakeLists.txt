@@ -87,7 +87,7 @@ juce_add_plugin(
   VST3_AUTO_MANIFEST
     FALSE
   COPY_PLUGIN_AFTER_BUILD
-    FALSE
+    TRUE #FALSE  # this is going to coppy the file to the correct folder on every build
 )
 
 # Configures the JUCE sources included in the plugin target.
